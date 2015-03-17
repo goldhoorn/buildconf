@@ -1,0 +1,622 @@
+---
+- pkg_set:github:/orocos-toolchain/autoproj.git:
+    branch: rock-rc
+- pkg_set:github:/rock-core/package_set.git:
+    branch: rock-rc
+- pkg_set:github:/rock-core/rock-package_set.git:
+    branch: rock-rc
+- pkg_set:github:/rock-tutorials/package_set.git:
+    branch: rock-rc
+- rtt:
+    branch: rock-rc
+- ocl:
+    branch: rock-rc
+- log4cpp:
+    branch: rock-rc
+- tools/metaruby:
+    branch: rock-rc
+- utilrb:
+    branch: rock-rc
+- utilmm:
+    branch: rock-rc
+- typelib:
+    branch: rock-rc
+- rtt_typelib:
+    branch: rock-rc
+- orogen:
+    branch: rock-rc
+- gui/vizkit:
+    branch: rock-rc
+- gui/vizkit3d:
+    branch: rock-rc
+- base/console_bridge:
+    branch: rock-rc
+- bundles/rock:
+    branch: rock-rc
+- tools/pocolog_cpp:
+    branch: rock-rc
+- tools/service_discovery:
+    branch: rock-rc
+- tools/autoproj:
+    branch: rock-rc
+- tools/autobuild:
+    branch: rock-rc
+- base/types:
+    branch: rock-rc
+- base/cmake:
+    branch: rock-rc
+- base/templates/ruby_lib:
+    branch: rock-rc
+- base/admin_scripts:
+    branch: rock-rc
+- base/doc:
+    branch: rock-rc
+- base/numeric:
+    branch: rock-rc
+- base/scripts:
+    branch: rock-rc
+- base/templates/cmake_lib:
+    branch: rock-rc
+- base/templates/cmake_vizkit_widget:
+    branch: rock-rc
+- base/templates/vizkit:
+    branch: rock-rc
+- base/templates/bundle:
+    branch: rock-rc
+- base/templates/doc:
+    branch: rock-rc
+- base/orogen/std:
+    branch: rock-rc
+- tools/syskit:
+    branch: rock-rc
+- tools/orocos.rb:
+    branch: rock-rc
+- tools/pocolog:
+    branch: rock-rc
+- tools/logger:
+    branch: rock-rc
+- base/orogen/types:
+    branch: rock-rc
+- tools/roby:
+    branch: rock-rc
+- tools/log_tools:
+    branch: rock-rc
+- drivers/aggregator:
+    branch: rock-rc
+- drivers/transformer:
+    branch: rock-rc
+- drivers/orogen/aggregator:
+    branch: rock-rc
+- drivers/orogen/transformer:
+    branch: rock-rc
+- image_processing/jpeg_conversion:
+    branch: rock-rc
+- image_processing/frame_helper:
+    branch: rock-rc
+- gui/rock_widget_collection:
+    branch: rock-rc
+- base/orogen/interfaces:
+    branch: rock-rc
+- tools/port_proxy:
+    branch: rock-rc
+- tools/telemetry:
+    branch: rock-rc
+- tools/orogen_metadata:
+    branch: rock-rc
+- tools/oropy_bridge:
+    branch: rock-rc
+- gui/pose3d_editor:
+    branch: rock-rc
+- multiagent/fipa_services:
+    branch: rock-rc
+- planning/motion_planning_libraries:
+    branch: rock-rc
+- bundles/rock_auv:
+    branch: rock-rc
+- image_processing/projection:
+    branch: rock-rc
+- gui/point_cloud:
+    branch: rock-rc
+- gui/qcam_calib:
+    branch: rock-rc
+- planning/arvand_herd:
+    branch: rock-rc
+- planning/fd_cedalion:
+    branch: rock-rc
+- planning/fd_uniform:
+    branch: rock-rc
+- planning/bfsf:
+    branch: rock-rc
+- planning/lama:
+    branch: rock-rc
+- planning/pddl_planner:
+    branch: rock-rc
+- planning/simple_path_planner:
+    branch: rock-rc
+- control/hysteresis_model:
+    branch: rock-rc
+- slam/pose_estimation:
+    branch: rock-rc
+- slam/terrain_estimator:
+    branch: rock-rc
+- slam/eslam:
+    branch: rock-rc
+- slam/polygonnet:
+    branch: rock-rc
+- gui/map2d:
+    branch: rock-rc
+- gui/vizkit_3d_plugins:
+    branch: rock-rc
+- drivers/dps_desertstar_ssp1:
+    branch: rock-rc
+- drivers/tofcamera_mesasr:
+    branch: rock-rc
+- drivers/imu_stim300:
+    branch: rock-rc
+- drivers/imu_imar:
+    branch: rock-rc
+- drivers/alt_imagenex:
+    branch: rock-rc
+- drivers/ctd_seabird:
+    branch: rock-rc
+- drivers/mbeam_imagenex:
+    branch: rock-rc
+- drivers/pressure_paroscientific:
+    branch: rock-rc
+- drivers/ucm_schilling:
+    branch: rock-rc
+- drivers/act_schilling:
+    branch: rock-rc
+- drivers/phins_ixsea:
+    branch: rock-rc
+- drivers/camera_aravis:
+    branch: rock-rc
+- simulation/imumodel:
+    branch: rock-rc
+- control/kdl_parser:
+    branch: rock-rc
+- gui/robot_model:
+    branch: rock-rc
+- gui/control_ui:
+    branch: rock-rc
+- control/joint_dispatcher:
+    branch: rock-rc
+- control/kdl_conversions:
+    branch: rock-rc
+- data_processing/type_to_vector:
+    branch: rock-rc
+- drivers/video_capture_vlc:
+    branch: rock-rc
+- drivers/video_streamer_vlc:
+    branch: rock-rc
+- control/reflexxes:
+    branch: rock-rc
+- drivers/actuator_dispatcher:
+    branch: rock-rc
+- bundles/rock_ugv_nav:
+    branch: rock-rc
+- drivers/ptu_directedperception:
+    branch: rock-rc
+- control/motor_controller:
+    branch: rock-rc
+- control/trajectory_follower:
+    branch: rock-rc
+- control/waypoint_navigation:
+    branch: rock-rc
+- drivers/iodrivers_base:
+    branch: rock-rc
+- drivers/velodyne_lidar:
+    branch: rock-rc
+- drivers/base_schilling:
+    branch: rock-rc
+- drivers/canbus:
+    branch: rock-rc
+- drivers/mb500:
+    branch: rock-rc
+- drivers/hokuyo:
+    branch: rock-rc
+- drivers/xsens_imu:
+    branch: rock-rc
+- drivers/dynamixel:
+    branch: rock-rc
+- drivers/controldev:
+    branch: rock-rc
+- drivers/parport:
+    branch: rock-rc
+- drivers/camera_interface:
+    branch: rock-rc
+- drivers/camera_prosilica:
+    branch: rock-rc
+- drivers/camera_usb:
+    branch: rock-rc
+- drivers/dvl_teledyne:
+    branch: rock-rc
+- drivers/camera_firewire:
+    branch: rock-rc
+- drivers/fog_kvh:
+    branch: rock-rc
+- drivers/iCharger:
+    branch: rock-rc
+- drivers/vicon:
+    branch: rock-rc
+- drivers/qualisys:
+    branch: rock-rc
+- drivers/sonar_tritech:
+    branch: rock-rc
+- drivers/laserscanner_sick:
+    branch: rock-rc
+- drivers/laser_filter:
+    branch: rock-rc
+- drivers/camera_ids:
+    branch: rock-rc
+- image_processing/stereo:
+    branch: rock-rc
+- image_processing/libelas:
+    branch: rock-rc
+- planning/nav_graph_search:
+    branch: rock-rc
+- planning/corridor_planner:
+    branch: rock-rc
+- planning/vfh_star:
+    branch: rock-rc
+- planning/corridor_navigation:
+    branch: rock-rc
+- external/libply:
+    branch: rock-rc
+- slam/envire:
+    branch: rock-rc
+- slam/pose_ekf:
+    branch: rock-rc
+- slam/quater_ikf:
+    branch: rock-rc
+- slam/quater_ukf:
+    branch: rock-rc
+- slam/odometry:
+    branch: rock-rc
+- slam/graph_slam:
+    branch: rock-rc
+- multiagent/fipa_acl:
+    branch: rock-rc
+- drivers/orogen/dps_desertstar_ssp1:
+    branch: rock-rc
+- multiagent/orogen/fipa_services:
+    branch: rock-rc
+- slam/orogen/gmapping:
+    branch: rock-rc
+- planning/orogen/motion_planning_libraries:
+    branch: rock-rc
+- image_processing/orogen/projection:
+    branch: rock-rc
+- image_processing/orogen/virtual_view:
+    branch: rock-rc
+- control/orogen/trajectory_generation:
+    branch: rock-rc
+- control/orogen/cart_ctrl_wdls:
+    branch: rock-rc
+- image_processing/orogen/video_streamer:
+    branch: rock-rc
+- image_processing/orogen/viso2:
+    branch: rock-rc
+- control/orogen/torque_estimator:
+    branch: rock-rc
+- slam/orogen/north_seeker:
+    branch: rock-rc
+- slam/orogen/terrain_estimator:
+    branch: rock-rc
+- slam/orogen/eslam:
+    branch: rock-rc
+- slam/orogen/local_mapper:
+    branch: rock-rc
+- slam/orogen/localization:
+    branch: rock-rc
+- slam/orogen/pose_estimation:
+    branch: rock-rc
+- planning/orogen/pddl_planner:
+    branch: rock-rc
+- planning/orogen/simple_path_planner:
+    branch: rock-rc
+- planning/orogen/heading_calculator:
+    branch: rock-rc
+- planning/orogen/traversability:
+    branch: rock-rc
+- drivers/orogen/phidgets:
+    branch: rock-rc
+- drivers/orogen/imu_stim300:
+    branch: rock-rc
+- drivers/orogen/imu_imar:
+    branch: rock-rc
+- drivers/orogen/alt_imagenex:
+    branch: rock-rc
+- drivers/orogen/ctd_seabird:
+    branch: rock-rc
+- drivers/orogen/mbeam_imagenex:
+    branch: rock-rc
+- drivers/orogen/pressure_paroscientific:
+    branch: rock-rc
+- drivers/orogen/ucm_schilling:
+    branch: rock-rc
+- drivers/orogen/act_schilling:
+    branch: rock-rc
+- drivers/orogen/phins_ixsea:
+    branch: rock-rc
+- drivers/orogen/kinect:
+    branch: rock-rc
+- drivers/orogen/velodyne_lidar:
+    branch: rock-rc
+- drivers/orogen/tofcamera_mesasr:
+    branch: rock-rc
+- drivers/orogen/camera_aravis:
+    branch: rock-rc
+- drivers/orogen/video_streamer_vlc:
+    branch: rock-rc
+- simulation/orogen/imumodel:
+    branch: rock-rc
+- drivers/orogen/servo_dynamixel:
+    branch: rock-rc
+- control/orogen/motor_controller:
+    branch: rock-rc
+- control/orogen/joint_dispatcher:
+    branch: rock-rc
+- data_processing/orogen/statistics:
+    branch: rock-rc
+- data_processing/orogen/type_to_vector:
+    branch: rock-rc
+- control/orogen/auv_rel_pos_controller:
+    branch: rock-rc
+- control/orogen/auv_control:
+    branch: rock-rc
+- control/orogen/kdl:
+    branch: rock-rc
+- drivers/orogen/ptu_directedperception:
+    branch: rock-rc
+- drivers/orogen/aria:
+    branch: rock-rc
+- control/orogen/trajectory_follower:
+    branch: rock-rc
+- control/orogen/waypoint_navigation:
+    branch: rock-rc
+- control/orogen/skid4_control:
+    branch: rock-rc
+- drivers/orogen/canbus:
+    branch: rock-rc
+- drivers/orogen/gps:
+    branch: rock-rc
+- drivers/orogen/hokuyo:
+    branch: rock-rc
+- drivers/orogen/xsens_imu:
+    branch: rock-rc
+- drivers/orogen/dynamixel:
+    branch: rock-rc
+- drivers/orogen/controldev:
+    branch: rock-rc
+- drivers/orogen/parport:
+    branch: rock-rc
+- drivers/orogen/wifimon:
+    branch: rock-rc
+- drivers/orogen/camera_base:
+    branch: rock-rc
+- drivers/orogen/camera_prosilica:
+    branch: rock-rc
+- drivers/orogen/fog_kvh:
+    branch: rock-rc
+- drivers/orogen/dvl_teledyne:
+    branch: rock-rc
+- drivers/orogen/camera_usb:
+    branch: rock-rc
+- drivers/orogen/iodrivers_base:
+    branch: rock-rc
+- drivers/orogen/camera_firewire:
+    branch: rock-rc
+- drivers/orogen/vicon:
+    branch: rock-rc
+- drivers/orogen/camera_v4l:
+    branch: rock-rc
+- drivers/orogen/sonar_tritech:
+    branch: rock-rc
+- drivers/orogen/laserscanner_sick:
+    branch: rock-rc
+- drivers/orogen/qualisys:
+    branch: rock-rc
+- drivers/orogen/laser_filter:
+    branch: rock-rc
+- drivers/orogen/camera_ids:
+    branch: rock-rc
+- drivers/orogen/taskmon:
+    branch: rock-rc
+- slam/orogen/orientation_estimator:
+    branch: rock-rc
+- slam/orogen/envire:
+    branch: rock-rc
+- slam/orogen/graph_slam:
+    branch: rock-rc
+- slam/orogen/odometry:
+    branch: rock-rc
+- slam/orogen/tilt_scan:
+    branch: rock-rc
+- image_processing/orogen/image_preprocessing:
+    branch: rock-rc
+- image_processing/orogen/stereo:
+    branch: rock-rc
+- planning/orogen/corridor_navigation:
+    branch: rock-rc
+- planning/orogen/corridor_planner:
+    branch: rock-rc
+- bundles/tutorials:
+    branch: rock-rc
+- bundles/tutorials_scripts:
+    branch: rock-rc
+- tutorials/rock_tutorial:
+    branch: rock-rc
+- tutorials/vizkit3d_plugin_tutorial:
+    branch: rock-rc
+- tutorials/message_driver:
+    branch: rock-rc
+- tutorials/designer_widget_tutorial:
+    branch: rock-rc
+- tutorials/orogen/tut_follower:
+    branch: rock-rc
+- tutorials/orogen/tut_brownian:
+    branch: rock-rc
+- tutorials/orogen/tut_deployment:
+    branch: rock-rc
+- tutorials/orogen/rock_tutorial:
+    branch: rock-rc
+- tutorials/orogen/tut_sensor:
+    branch: rock-rc
+- tutorials/orogen/message_producer:
+    branch: rock-rc
+- tutorials/orogen/message_consumer:
+    branch: rock-rc
+- external/opencv:
+    mode: 2
+    no_subdirectory: false
+    archive_dir: opencv-2.4.9
+    url: http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.3.1/OpenCV-2.3.1a.tar.bz2
+- tools/class_loader:
+    branch: indigo-devel
+    tag: 
+    commit: 7162a3688b0985c7a4bd63852865a15960b03f1f
+- tools/rubigen:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- external/sisl:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://www.sintef.no/upload/IKT/9011/geometri/sisl/sisl-4.5.0.tar.gz
+- slam/ceres_solver:
+    branch: master
+    tag: 
+    commit: ffa324765e8b480faaee681412c83657b816cf7d
+- tools/rbind:
+    branch: master
+    tag: 
+    commit: 7a2041a51e1ae9f04937e43c888edbb3aa819825
+- image_processing/viso2:
+    mode: 3
+    no_subdirectory: true
+    archive_dir: 
+    url: http://www.cvlibs.net/downloads/libviso2.zip
+- planning/randward:
+    revision: 325
+- planning/fast_downward:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://hg.fast-downward.org/archive/4d52652adfee.tar.gz/src
+- slam/gmapping:
+    revision: 54
+- drivers/aravis:
+    branch: master
+    tag: 
+    commit: 7ea868ce70065f83ed12d36643829df6139aa62c
+- slam/mtk:
+    revision: 26
+- external/sbpl:
+    branch: master
+    tag: 1.2.0
+    commit: 
+- external/ompl:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: https://bitbucket.org/ompl/ompl/downloads/ompl-0.14.0-Source.tar.gz
+- external/aruco:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://downloads.sourceforge.net/project/aruco/1.2.5/aruco-1.2.5.tgz
+- external/lemon:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://lemon.cs.elte.hu/pub/sources/lemon-1.3.tar.gz
+- external/snap:
+    branch: master
+    tag: 
+    commit: daa1eca9d924f3577b23882d781a48a0bc09cff7
+- external/gexf:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: https://launchpad.net/libgexf/unstable/0.1.2/+download/libgexf-src-0.1.2.tar.gz
+- slam/octomap:
+    branch: master
+    tag: v1.6.8
+    commit: 
+- drivers/freenect:
+    branch: master
+    tag: 
+    commit: 95ae970786fd52b1a4191ba12e0084fcf8b549b5
+- control/urdfdom:
+    branch: master
+    tag: 
+    commit: 771cde3284c244142250b511bfcaa0bc6922bbfa
+- control/urdfdom_headers:
+    branch: master
+    tag: 
+    commit: bedfc524fd3c81956d03eddd32de968a52537a82
+- data_processing/openann:
+    branch: master
+    tag: 
+    commit: 21216e3af0ed8165f752cb6c797a5985f8b10633
+- drivers/phidgets:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20130320.tar.gz
+- planning/openrave:
+    branch: latest_stable
+    tag: 
+    commit: 5cfc744410adfee464a35d19964f525efb819552
+- control/kdl:
+    branch: master
+    tag: 
+    commit: 264ef3f7c4ad553e7a391e0f104fda1ec5051925
+- drivers/aria:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://rock-robotics.org/archives/ARIA-2.7.5.2.tgz
+- external/yaml-cpp:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz
+- external/tinyxml:
+    mode: 3
+    no_subdirectory: false
+    archive_dir: 
+    url: http://sourceforge.net/projects/tinyxml/files/tinyxml/2.6.2/tinyxml_2_6_2.zip
+- external/gdal:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://download.osgeo.org/gdal/gdal-1.9.2.tar.gz
+- external/cminpack:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://devernay.free.fr/hacks/cminpack/cminpack-1.1.3.tar.gz
+- slam/flann:
+    mode: 3
+    no_subdirectory: false
+    archive_dir: flann-1.8.4-src
+    url: http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann-1.8.4-src.zip
+- slam/pcl:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: https://github.com/PointCloudLibrary/pcl/archive/pcl-1.7.1.tar.gz
+- slam/hogman:
+    revision: 21
+- slam/g2o:
+    revision: 54
+- external/kdtree:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://ftp.de.debian.org/debian/pool/main/libk/libkdtree++/libkdtree++_0.7.0.orig.tar.gz
+- external/box2d:
+    revision: 313
