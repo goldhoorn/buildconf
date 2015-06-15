@@ -9,5 +9,5 @@
 overrides:
   - drivers/freenect2:
     github: goldhoorn/libfreenect2
-    branch: pkg-config
+    branch: master 
 
