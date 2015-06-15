@@ -5,4 +5,8 @@
 # overrides:
 #   - rtt
 #     branch: test
-#  
+#
+- drivers/freenect2:
+    github: goldhoorn/libfreenect2
+    branch: pkg-config
+
