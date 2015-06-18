@@ -6,8 +6,8 @@
 #   - rtt
 #     branch: test
 #
-overrides:
-  - drivers/freenect2:
-    github: goldhoorn/libfreenect2
-    branch: master 
+#overrides:
+#  - drivers/freenect2:
+#    github: goldhoorn/libfreenect2
+#    branch: master 
 
