@@ -26,6 +26,6 @@
 require 'autoproj/gitorious'
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
-
+Autoproj.env_set 'TYPELIB_CXX_LOADER', 'clang'
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
