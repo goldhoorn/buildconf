@@ -9,7 +9,7 @@ package_sets:
    - github: rock-tutorials/tutorials-package_set
    - github: rock-simulation/simulation-package_set
    - github: goldhoorn/package_set
-   - gitlab: rock-dfki/package_set 
+   - spacegit: rock-dfki/package_set 
    
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the layout below
