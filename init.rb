@@ -31,3 +31,12 @@ Autoproj.gitorious_server_configuration('SPACEGIT', 'git.hb.dfki.de', :fallback_
 Autoproj.env_set 'TYPELIB_CXX_LOADER', 'clang'
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
+Autoproj.env_set 'CFLAGS', '-std=c++11'
+Autoproj.env_set 'CXXFLAGS', '-std=c++11'
+Autoproj.post_import do |pkg|
+    if pkg.kind_of?(Autobuild::CMake)
+	pkg.define 'ROCK_USE_CXX11','true'
+    end
+end
+
+
