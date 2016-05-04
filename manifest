@@ -20,6 +20,8 @@ package_sets:
 layout:
    - rock.core
    - tools/constrained_based_networks
+   - planning/pddl_planner
+   - bundles/constraint-sandbox
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the package_sets above
    # - rock.ros
@@ -67,8 +69,8 @@ layout:
 # For instance, let's assume the orocos/rtt is already installed on your
 # machine. You would then simply do:
 #
-# ignored_packages:
-#   - rtt
+ignored_packages:
+    - external/snap 
 #
 
 
